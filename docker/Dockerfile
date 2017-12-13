@@ -6,6 +6,7 @@ ADD tomcat-users.xml /usr/local/tomcat/conf
 ADD https://raw.githubusercontent.com/ishkin/ProtonFork/master/artifacts/AuthoringTool.war /usr/local/tomcat/webapps
 ADD https://raw.githubusercontent.com/ishkin/ProtonFork/master/artifacts/AuthoringToolWebServer.war /usr/local/tomcat/webapps
 ADD https://raw.githubusercontent.com/ishkin/ProtonFork/master/artifacts/ProtonOnWebServer.war /usr/local/tomcat/webapps
+ADD https://raw.githubusercontent.com/ishkin/ProtonFork/master/artifacts/ProtonOnWebServerGrapes.war /usr/local/tomcat/webapps
 ADD https://raw.githubusercontent.com/ishkin/ProtonFork/master/artifacts/ProtonOnWebServerAdmin.war /usr/local/tomcat/webapps
 
 EXPOSE 8080
